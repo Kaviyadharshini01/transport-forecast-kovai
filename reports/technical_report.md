@@ -13,6 +13,11 @@ To build accurate forecasting models for daily public transport passenger journe
 - Descriptive statistics and missing value checks performed.
 - Identified weekly seasonality and impact of holidays and COVID-19 lockdowns.
 
+## Algorithms used for the Task
+- Prophet is ideal for your use case because of its built-in handling of seasonality, holidays, and changepoints.
+- ARIMA is a solid classical approach for comparison or where data fits its assumptions.
+- LSTM offers advanced modeling for more complex patterns but needs more data and training time.
+
 ## Forecasting Methodology
 - Used Facebook Prophet, a decomposable time series model.
 - Data transformed into Prophet’s required format (`ds` for date, `y` for value).
@@ -35,5 +40,3 @@ To build accurate forecasting models for daily public transport passenger journe
 - Explore advanced models like LSTM for comparison.
 
 ---
-
-*Prepared by Kavya – Student*
